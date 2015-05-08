@@ -14,3 +14,5 @@ The first message that you send will actually not send the message itself, rathe
 will send your RSA public key to the recipient.
 
 After that you are free to use:)
+
+![alt tag](https://github.com/HasseNasse/Chat-application-with-RSA-encryption/blob/master/.jar%20files/demo.png)
