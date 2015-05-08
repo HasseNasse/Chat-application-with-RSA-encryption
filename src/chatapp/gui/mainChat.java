@@ -175,7 +175,7 @@ public class mainChat extends javax.swing.JFrame implements WriteableGUI {
             write("Me -->" + message);
         } else {
             // We sent the public key to the recipient
-            BigInteger[] PD = rsa.MyRSA(256); //Generated public key
+            BigInteger[] PD = rsa.MyRSA(2048); //Generated public key
             String Key = PD[0].toString() + "-" + PD[1].toString();
             //write(Key);
             MessageTransmitter transmitter = new MessageTransmitter(Key, IPTextField.getText(), Integer.parseInt(PortTextField.getText()));
